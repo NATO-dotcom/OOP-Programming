@@ -32,7 +32,7 @@ public:
 };
 int main()//main fn
 {
-	owl x,y,z;
+	owl x,y,z;//animals are inheriting features from others
 	cout<<"features of owl x:"<<endl;
 	x.bname = "owl danger";
 	cout << "name of the owl x is " << x.bname << endl;
